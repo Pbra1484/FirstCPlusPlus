@@ -1,5 +1,5 @@
 //
-//  main.cpp
+//  Controller.cpp
 //  FirstCPlusPlus
 //
 //  Created by Brashear, Patrick on 1/23/17.
@@ -7,9 +7,13 @@
 //
 
 #include <iostream>
+#include "Controller.h"
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
-    return 0;
+using namespace std;
+
+void Controller :: start()
+{
+    
+    cout << "mosh" << endl;
+    
 }
