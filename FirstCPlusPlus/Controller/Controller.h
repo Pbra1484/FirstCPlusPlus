@@ -10,6 +10,8 @@
 #define Controller_h
 class Controller
 {
+private:
+    void somthing();
 public:
     void start();
 };
