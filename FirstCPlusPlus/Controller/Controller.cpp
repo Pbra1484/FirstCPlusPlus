@@ -58,6 +58,10 @@ void Controller :: somthing()
     cout << "Changing with a pointer" << endl;
     usePointerToChange(numberPointer);
     cout << "number changed: " << myNumber << endl;
+    
+    int ** pointer2 = &numberPointer;
+    
+    pointer2 =
 }
 
 void Controller :: useNumbers(int suppliedNumber)
