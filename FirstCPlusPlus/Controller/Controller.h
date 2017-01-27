@@ -12,6 +12,9 @@ class Controller
 {
 private:
     void somthing();
+    void useNumbers(int someNumbers);
+    int impactNumber();
+    void usePointerToChange(int * somePointer);
 public:
     void start();
 };
