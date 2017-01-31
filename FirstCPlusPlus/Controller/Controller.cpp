@@ -8,6 +8,7 @@
 
 #include <iostream>
 #include "Controller.h"
+#include "../Model/Timer.hpp"
 
 using namespace std;
 
@@ -19,9 +20,15 @@ void Controller :: usePointerToChange(int * pointedTo)
 
 void Controller :: start()
 {
+    Timer timer;
+    timer.startTimer();
     
-    cout << "mosh" << endl;
-    this->somthing();
+    timer.finishTimer();
+    
+    timer.displayTimerInformation();
+    
+//    cout << "mosh" << endl;
+//    this->somthing();
     
 }
 void Controller :: somthing()
@@ -61,7 +68,7 @@ void Controller :: somthing()
     
     int ** pointer2 = &numberPointer;
     
-    pointer2 =
+   
 }
 
 void Controller :: useNumbers(int suppliedNumber)
